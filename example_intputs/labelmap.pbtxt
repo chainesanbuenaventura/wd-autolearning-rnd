@@ -1,0 +1,54 @@
+item {
+  id: 1,
+  name: 'unknown_bottle'
+}
+
+item {
+  id: 2,
+  name: 'volvic'
+}
+
+item {
+  id: 3,
+  name: 'sports_cap'
+}
+
+item {
+  id: 4,
+  name: 'fiji'
+}
+
+item {
+  id: 5,
+  name: 'wilkins'
+}
+
+item {
+  id: 6,
+  name: 'summit'
+}
+
+item {
+  id: 7,
+  name: 'evian'
+}
+
+item {
+  id: 8,
+  name: 'nature_spring'
+}
+
+item {
+  id: 9,
+  name: 'red_bull'
+}
+
+item {
+  id: 10,
+  name: 'vittel'
+}
+
+item {
+  id: 11,
+  name: 'st_george'
+}

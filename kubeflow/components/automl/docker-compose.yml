@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+    automl:
+        command: "tail -f /dev/null"
+        volumes:
+            - "./src/:/app"
+        build: .

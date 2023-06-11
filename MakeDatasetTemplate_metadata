@@ -1,0 +1,28 @@
+{
+  "description": "An example pipeline that converts bigquery dataset to tensorflow records",
+  "name": "Make Dataset from BQ",
+  "parameters": [
+    {
+      "regexes": [],
+      "name": "bq_dataset",
+      "helpText": "Data set table to read from ex: autolearningRND.bottlestTest2",
+      "label": "Dataset Table"
+    },
+    {
+      "regexes": [
+        "^gs:\\/\\/[^\\n\\r]+$"
+      ],
+      "name": "output_dir",
+      "helpText": "Output directory for tensorflow records. ex: gs://MyBucket/counts",
+      "label": "Output directory"
+    },
+  {
+      "regexes": [
+        "^gs:\\/\\/[^\\n\\r]+$"
+      ],
+      "name": "temp_dir",
+      "helpText": "Temporary directory for the Dataflow job. ex: gs://MyBucket/counts",
+      "label": "Temporary directory"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.env/
+.env_new/
+container_data/
+node_modules
+kubeflow/pipeline/autolearning-pipeline.tar.gz
+example_output/
+MakeDatasetTemplate.egg-*
+models/
+__pycache__
+*.pyc
+*.tar.gz
+container_data/
+kubeflow/components/tfjs/src/wizydam-dev-adabcf9be9a2.json
+kubeflow/components/tfjs/src/wizdam-prod-0965371627f5.json
+kubeflow/components/automl/src/wizydam-dev-adabcf9be9a2.json
+kubeflow/components/automl/src/wizdam-prod-0965371627f5.json

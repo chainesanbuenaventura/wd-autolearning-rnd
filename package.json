@@ -1,0 +1,19 @@
+{
+  "name": "autolearning",
+  "version": "1.0.0",
+  "description": "1. python3 -m venv .env 2. source .env/bin/activate 3. pip install -r requirements.text",
+  "main": "triggerPipeline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/Wizyio/wd-autolearning-rnd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Wizyio/wd-autolearning-rnd#readme",
+  "dependencies": {
+    "googleapis": "^48.0.0"
+  }
+}

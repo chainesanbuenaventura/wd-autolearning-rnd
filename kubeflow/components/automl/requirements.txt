@@ -1,0 +1,7 @@
+google-cloud-storage==1.31.0
+scikit-learn==0.23.2
+tensorflow-transform==0.23.0
+fsspec==0.8.1
+gcsfs==0.7.1
+tensorflowjs[wizard]
+smart_open==1.10.0
